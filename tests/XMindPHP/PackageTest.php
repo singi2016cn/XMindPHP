@@ -2,6 +2,7 @@
 namespace XMindPHP;
 
 use Chub\XMindPHP\Package;
+use PHPUnit\Framework\TestCase;
 
 /**
  * PackageTest
@@ -9,7 +10,7 @@ use Chub\XMindPHP\Package;
  * @author Vladimir Chub <v@chub.com.ua>
  * @covers \Chub\XMindPHP\Package
  */
-class PackageTest extends \PHPUnit_Framework_TestCase
+class PackageTest extends TestCase
 {
 	/**
 	 * @expectedException \Chub\XMindPHP\RuntimeException

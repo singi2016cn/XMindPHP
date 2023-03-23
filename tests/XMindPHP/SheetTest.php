@@ -2,6 +2,7 @@
 namespace XMindPHP;
 
 use Chub\XMindPHP\Package;
+use PHPUnit\Framework\TestCase;
 
 /**
  * SheetTest
@@ -9,7 +10,7 @@ use Chub\XMindPHP\Package;
  * @author Vladimir Chub <v@chub.com.ua>
  * @covers \Chub\XMindPHP\Package
  */
-class SheetTest extends \PHPUnit_Framework_TestCase
+class SheetTest extends TestCase
 {
 	public function testIterator()
 	{

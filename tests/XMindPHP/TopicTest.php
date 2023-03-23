@@ -2,13 +2,14 @@
 
 namespace XMindPHP;
 use Chub\XMindPHP\Package;
+use PHPUnit\Framework\TestCase;
 
 /**
  * TopicTest
  *
  * @author Vladimir Chub <v@chub.com.ua>
  */
-class TopicTest extends \PHPUnit_Framework_TestCase
+class TopicTest extends TestCase
 {
 	/** @var \Chub\XMindPHP\RootTopic */
 	private $rootTopic;
